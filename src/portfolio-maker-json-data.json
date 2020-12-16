@@ -1,0 +1,86 @@
+{
+  "user": {
+    "id": "UYTFgk5678GKUYGjhg",
+    "userName": "Pierre",
+    "password": "passwordtest",
+    "email": "pipo@gmail.com"
+  },
+
+  "configs": {
+    "siteTitle": "Pierre's Portfolio",
+    "mainTitle": "Pierre Portal",
+    "siteTitleIcon": null,
+    "languages": ["fr", "en"],
+    "headerMenu": { "displayed": true, "navigation": "primary" },
+    "sideBar": { "displayed": true, "navigation": "secondary" },
+    "font": "default",
+    "textColor": "default",
+    "backgroundColor": "white",
+    "defaultHeadingMargin": true,
+    "activeNavigationStyle": "default",
+    "routes": [
+      {
+        "id": "hgvu6tVI76tvy",
+        "path": "/",
+        "label": "Home",
+        "template": "home",
+        "subRoutes": [
+          {
+            "id": "kjhbv645rv67%V",
+            "path": "/a",
+            "label": "A",
+            "template": "home-a"
+          }
+        ]
+      },
+      {
+        "id": "dsddtVI76tvy",
+        "path": "/work",
+        "label": "Work",
+        "template": "works"
+      },
+      {
+        "id": "dssdfzVI76tvy",
+        "path": "/contact",
+        "label": "Contact",
+        "template": "contacts"
+      }
+    ]
+  },
+
+  "templates": [
+    {
+      "owner": { "id": "UYTFgk5678GKUYGjhg" },
+      "pageName": "Home",
+      "modules": [
+        {
+          "id": "rex34e4cCE",
+          "type": "heading",
+          "level": 2,
+          "textContent": "This is a section heading title",
+          "feed": null,
+          "style": "default"
+        },
+        {
+          "id": "gt7YGkugkk",
+          "type": "grid",
+          "template": "default",
+          "feed": null,
+          "style": "default"
+        }
+      ]
+    }
+  ],
+
+  "articles": [
+    {
+      "id": "",
+      "owner": "",
+      "feedName": "",
+      "title": "",
+      "content": "",
+      "img": "",
+      "media": ""
+    }
+  ]
+}
